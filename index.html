@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Text Analyzer</title>
+</head>
+
+<body>
+    <h2> Text Analyzer....</h2>
+    <textarea name="text" id="txt1" cols="50" rows="13" class="text" onkeypress="count()"
+        placeholder="Please Enter Text Here."></textarea>
+    <div class="btn">
+        <button id="btn1" onclick="small()">Lower Case</button>
+        <button id="btn1" onclick="upper()">Upper Case</button>
+        <button id="btn1" onclick="caps()">Caps</button>
+        <button id="btn1" onclick="remove()">Clear</button>
+    </div>
+    <textarea name="text" id="txt" cols="50" rows="13" class="text" disabled></textarea>
+    <div class="myspan">
+        <p>Total Char :- <span id="value">0</span></p>
+        <p>Total Words :- <span id="words">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
