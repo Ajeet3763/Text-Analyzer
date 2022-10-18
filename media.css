@@ -1,0 +1,18 @@
+@media screen and (min-width: 426px) {
+    body {
+        background-color: rgba(30, 24, 24, 0.936);
+    }
+
+    .text {
+        width: 600px;
+    }
+
+    .btn {
+        margin-left: 32%;
+    }
+
+    #btn1 {
+        width: 12%;
+        overflow: hidden;
+    }
+}

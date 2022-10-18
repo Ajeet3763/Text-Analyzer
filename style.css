@@ -32,14 +32,15 @@ h2 {
 }
 
 .btn {
+    /* width: 80%; */
     margin: 5px;
-    margin-left: 35.5%;
+    margin-left: 10%;
     display: flex;
     flex-wrap: wrap;
 }
 
 #btn1 {
-    width: 100px;
+    width: 90%;
     height: 30px;
     margin: 1% 0.5%;
     background-color: lavender;
@@ -68,27 +69,3 @@ h2 {
     font-weight: bold;
 }
 
-@media screen and (max-width:768px) {
-    .text {
-        width: 50%;
-    }
-
-    .btn {
-        flex-direction: column;
-    }
-
-    #btn1 {
-        margin-left: 10%;
-    }
-}
-
-@media screen and (max-width:426px) {
-    .text {
-        width: 85%;
-    }
-
-    .btn #btn1 {
-        width: 90%;
-        margin-left: -50px;
-    }
-}
