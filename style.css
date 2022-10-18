@@ -81,3 +81,14 @@ h2 {
         margin-left: 10%;
     }
 }
+
+@media screen and (max-width:400px) {
+    .text {
+        width: 85%;
+    }
+
+    .btn #btn1 {
+        width: 90%;
+        margin-left: -50px;
+    }
+}
